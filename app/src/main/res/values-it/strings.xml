@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="upload_date_text">Pubblicato il %1$s</string>
     <string name="no_player_found">Nessun lettore multimediale trovato. Installare VLC\?</string>
     <string name="install">Installa</string>

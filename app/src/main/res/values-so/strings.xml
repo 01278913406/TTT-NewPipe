@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="use_inexact_seek_title">Dhaafinta dagdaga ah</string>
     <string name="popup_remember_size_pos_summary">Xusuusnow meeshii iyo cabirkii udambeeyay ee daaqada</string>
     <string name="popup_remember_size_pos_title">Xusuusnow fadhiga daaqada</string>

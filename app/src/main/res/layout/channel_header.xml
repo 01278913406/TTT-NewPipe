@@ -19,13 +19,13 @@
             android:fitsSystemWindows="true"
             android:scaleType="fitCenter"
             android:src="@drawable/placeholder_channel_banner"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <FrameLayout
             android:id="@+id/avatars_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="50dp">
 
             <com.google.android.material.imageview.ShapeableImageView
@@ -36,7 +36,8 @@
                 android:src="@drawable/placeholder_person"
                 app:shapeAppearance="@style/CircularImageView"
                 app:strokeColor="#ffffff"
-                app:strokeWidth="2dp" />
+                app:strokeWidth="2dp"
+                tools:ignore="ImageContrastCheck" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/sub_channel_avatar_view"
@@ -49,7 +50,7 @@
                 app:shapeAppearance="@style/CircularImageView"
                 app:strokeColor="#ffffff"
                 app:strokeWidth="2dp"
-                tools:ignore="RtlHardcoded"
+                tools:ignore="RtlHardcoded,ImageContrastCheck"
                 tools:visibility="visible" />
         </FrameLayout>
 
@@ -81,7 +82,7 @@
             android:gravity="center|left"
             android:lines="1"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="12dp"
+            android:textSize="12sp"
             tools:ignore="RtlHardcoded"
             tools:layout_below="@id/channel_title_view"
             tools:text="Lorem ipsum dolor" />
@@ -95,6 +96,7 @@
             android:layout_alignRight="@id/channel_title_view"
             android:ellipsize="end"
             android:maxLines="2"
+            android:textColor="#000000"
             android:textSize="@dimen/channel_subscribers_text_size"
             android:visibility="gone"
             tools:ignore="RtlHardcoded"
@@ -110,6 +112,7 @@
             android:layout_gravity="center_vertical|right"
             android:layout_marginRight="2dp"
             android:text="@string/subscribe_button_title"
+            android:textColor="#000000"
             android:textSize="@dimen/channel_rss_title_size"
             android:theme="@style/ServiceColoredButton"
             android:visibility="gone"

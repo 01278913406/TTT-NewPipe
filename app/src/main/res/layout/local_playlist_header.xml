@@ -31,6 +31,7 @@
         android:gravity="right|center_vertical"
         android:maxLines="1"
         android:paddingHorizontal="@dimen/video_item_search_padding"
+        android:textColor="#000000"
         android:textSize="@dimen/playlist_detail_subtext_size"
         tools:ignore="RtlHardcoded"
         tools:text="234 videos" />

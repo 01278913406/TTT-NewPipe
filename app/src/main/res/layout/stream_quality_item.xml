@@ -17,8 +17,8 @@
 
     <org.chicha.ttt.views.NewPipeTextView
         android:id="@+id/stream_format_name"
+        android:layout_height="match_parent"
         android:layout_width="wrap_content"
-        android:layout_height="22dp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/wo_sound_icon"
         android:ellipsize="end"
@@ -33,8 +33,8 @@
 
     <org.chicha.ttt.views.NewPipeTextView
         android:id="@+id/stream_quality"
+        android:layout_height="match_parent"
         android:layout_width="wrap_content"
-        android:layout_height="26dp"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/wo_sound_icon"
         android:ellipsize="end"

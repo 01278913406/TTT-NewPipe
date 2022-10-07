@@ -176,6 +176,7 @@
                         android:background="?attr/selectableItemBackground"
                         android:clickable="true"
                         android:focusable="true"
+                        android:minHeight="48dp"
                         android:paddingStart="12dp"
                         tools:ignore="RtlSymmetry">
 
@@ -272,7 +273,8 @@
                                         android:layout_height="@dimen/video_item_detail_uploader_image_size"
                                         android:contentDescription="@string/detail_uploader_thumbnail_view_description"
                                         android:src="@drawable/placeholder_person"
-                                        app:shapeAppearance="@style/CircularImageView" />
+                                        app:shapeAppearance="@style/CircularImageView"
+                                        tools:ignore="ImageContrastCheck" />
 
                                     <com.google.android.material.imageview.ShapeableImageView
                                         android:id="@+id/detail_sub_channel_thumbnail_view"
@@ -283,6 +285,7 @@
                                         android:src="@drawable/placeholder_person"
                                         android:visibility="gone"
                                         app:shapeAppearance="@style/CircularImageView"
+                                        tools:ignore="ImageContrastCheck"
                                         tools:visibility="visible" />
 
                                 </FrameLayout>
@@ -369,6 +372,7 @@
                                     android:gravity="center_vertical"
                                     android:lines="1"
                                     android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:textColor="#000000"
                                     android:textSize="@dimen/video_item_detail_likes_text_size"
                                     tools:ignore="RtlHardcoded"
                                     tools:text="12M" />
@@ -551,6 +555,7 @@
                                 android:gravity="center"
                                 android:paddingVertical="@dimen/detail_control_padding"
                                 android:text="@string/play_with_kodi_title"
+                                android:textColor="#000000"
                                 android:textSize="@dimen/detail_control_text_size" />
 
                             <org.chicha.ttt.views.NewPipeTextView
@@ -601,6 +606,7 @@
 
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/view_pager"
+                android:contentDescription="@string/text_label"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -608,6 +614,7 @@
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout"
+                android:contentDescription="@string/text_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center"
@@ -641,11 +648,13 @@
             android:layout_height="60dp"
             android:layout_alignParentStart="true"
             android:background="@color/transparent_background_color"
+            android:contentDescription="@string/text_label"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/video_item_search_padding"
             android:paddingRight="@dimen/video_item_search_padding"
             android:scaleType="fitCenter"
-            android:src="@drawable/placeholder_thumbnail_video" />
+            android:src="@drawable/placeholder_thumbnail_video"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <LinearLayout
             android:id="@+id/overlay_metadata_layout"
@@ -700,21 +709,23 @@
 
             <ImageButton
                 android:id="@+id/overlay_play_pause_button"
-                android:layout_width="40dp"
+                android:layout_width="48dp"
                 android:layout_height="match_parent"
                 android:background="?attr/selectableItemBackground"
-                android:padding="10dp"
-                android:scaleType="center"
+                android:contentDescription="@string/text_label"
                 android:focusable="true"
                 android:focusedByDefault="true"
+                android:padding="10dp"
+                android:scaleType="center"
                 android:src="@drawable/ic_play_arrow"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
             <ImageButton
                 android:id="@+id/overlay_close_button"
-                android:layout_width="40dp"
+                android:layout_width="48dp"
                 android:layout_height="match_parent"
                 android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/text_label"
                 android:padding="10dp"
                 android:scaleType="center"
                 android:src="@drawable/ic_close"

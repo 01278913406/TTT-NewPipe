@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਵੱਡਦਰਸ਼ੀ ਕੱਚ ਨੂੰ ਦਬਾਓ</string>
     <string name="upload_date_text">%1$s ਨੂੰ ਜਾਰੀ ਕੀਤੀ ਗਈ</string>
     <string name="no_player_found">ਕੋਈ ਸਟ੍ਰੀਮ ਪਲੇਅਰ ਨਹੀਂ ਮਿਲਿਆ। ਤੁਸੀਂ ਵੀਐੱਲਸੀ ਸਥਾਪਤ ਕਰਨਾ ਚਾਹੋਗੇ\?</string>

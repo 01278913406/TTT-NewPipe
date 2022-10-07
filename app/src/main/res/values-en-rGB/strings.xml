@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="use_inexact_seek_summary">Inexact seek allows the player to seek to positions faster with reduced precision. Seeking for 5, 15 or 25 seconds doesn’t work with this.</string>
     <string name="show_play_with_kodi_summary">Display an option to play a video via Kodi media centre</string>
     <string name="notification_colorize_summary">Have Android customise the notification’s colour according to the main colour in the thumbnail (note that this is not available on all devices)</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="show_info">තොරතුරු පෙන්වන්න</string>
     <string name="did_you_mean">ඔබ අදහස් කළේ \"%1$s\" ද\?</string>
     <string name="settings">සැකසුම්</string>

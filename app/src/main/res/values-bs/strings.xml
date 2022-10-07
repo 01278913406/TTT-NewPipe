@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="tab_subscriptions">Pratnje</string>
     <string name="main_bg_subtitle">Dodirnite lupu da bi ste započeli.</string>
     <string name="install">Instališi</string>

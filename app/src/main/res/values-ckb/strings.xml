@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="feed_use_dedicated_fetch_method_help_text">ئایا توانای بارکردن لاوازە؟ گەر وایە ئەوا بارکردنی خێرا تاقی بکەرەوە (دەتوانی بیگۆڕیت لە بەشی ڕێکخستنەکان لەڕێگای گرتەکردن لەم دوگمەیەی خوارەوە).
 \n
 \nئەم داوانامەیە دوو شێوازی بارکردنت بۆ پێشنیاز دەکات:

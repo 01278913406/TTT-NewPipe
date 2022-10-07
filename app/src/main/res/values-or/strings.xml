@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">ଆରମ୍ଭ କରିବା ପାଇଁ \"ସର୍ଚ୍ଚ\" ବଟନ କୁ ଦବାନ୍ତୁ</string>
     <string name="systems_language">ସିଷ୍ଟମ୍ ଡିଫଲ୍ଟ</string>
     <string name="rename_playlist">ନାମ ବଦଳାନ୍ତୁ</string>

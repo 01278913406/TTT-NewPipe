@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="install">安裝</string>
     <string name="cancel">取消</string>
     <string name="upload_date_text">喺 %1$s 發佈</string>

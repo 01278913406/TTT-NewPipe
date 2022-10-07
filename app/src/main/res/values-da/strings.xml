@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">Tryk på forstørrelsesglasset for at komme i gang.</string>
     <string name="upload_date_text">Udgivet den %1$s</string>
     <string name="no_player_found">Ingen streamafspiller blev fundet. Installér VLC\?</string>

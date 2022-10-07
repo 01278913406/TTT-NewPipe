@@ -40,7 +40,8 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:text="@string/what_happened_headline"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
 
             <org.chicha.ttt.views.NewPipeTextView
                 android:id="@+id/errorMessageView"
@@ -54,7 +55,8 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:text="@string/what_device_headline"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -71,7 +73,7 @@
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="16dp">
+                    android:paddingStart="16dp">
 
                     <org.chicha.ttt.views.NewPipeTextView
                         android:id="@+id/errorInfosView"
@@ -87,7 +89,8 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:text="@string/error_details_headline"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -111,15 +114,19 @@
 
             <org.chicha.ttt.views.NewPipeEditText
                 android:id="@+id/errorCommentBox"
+                android:hint="@string/text_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="" />
+                android:inputType=""
+                android:minHeight="48dp" />
 
             <Button
                 android:id="@+id/errorReportEmailButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/error_report_button_text" />
+                android:text="@string/error_report_button_text"
+                android:textColor="#B71C1C"
+                tools:ignore="TextContrastCheck" />
 
             <org.chicha.ttt.views.NewPipeTextView
                 android:layout_width="match_parent"
@@ -127,19 +134,24 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="@string/error_report_open_github_notice"
+                android:textColor="#3E2723"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/errorReportCopyButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/copy_for_github" />
+                android:text="@string/copy_for_github"
+                android:textColor="#B71C1C"
+                tools:ignore="TextContrastCheck" />
 
             <Button
                 android:id="@+id/errorReportGitHubButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/error_report_open_issue_button_text" />
+                android:text="@string/error_report_open_issue_button_text"
+                android:textColor="#B71C1C"
+                tools:ignore="TextContrastCheck" />
 
         </LinearLayout>
     </ScrollView>

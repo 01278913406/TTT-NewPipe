@@ -12,11 +12,11 @@
 
     <TextView
         android:id="@+id/itemTitleView"
+        android:hint="@string/text_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/video_item_search_image_right_margin"
         android:layout_toEndOf="@+id/itemThumbnailView"
-        android:layout_toRightOf="@+id/itemThumbnailView"
         android:ellipsize="end"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -36,6 +36,7 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_uploader_text_size"
         app:layout_constraintBottom_toTopOf="@+id/itemAdditionalDetails"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,9 +50,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/itemThumbnailView"
-        android:layout_toRightOf="@+id/itemThumbnailView"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_upload_date_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/itemTitleView"
@@ -71,6 +72,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearance="@style/CircularImageView"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

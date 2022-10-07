@@ -7,6 +7,7 @@
 
     <org.chicha.ttt.views.ScrollableTabLayout
         android:id="@+id/main_tab_layout"
+        android:contentDescription="@string/text_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,6 +20,7 @@
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
+        android:contentDescription="@string/text_label"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/main_tab_layout" />

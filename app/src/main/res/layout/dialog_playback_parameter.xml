@@ -47,7 +47,7 @@
                 android:text="--%"
                 android:textColor="?attr/colorAccent"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
                 tools:text="-5%" />
 
             <RelativeLayout
@@ -119,7 +119,7 @@
                 android:text="+-%"
                 android:textColor="?attr/colorAccent"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
                 tools:text="+5%" />
         </RelativeLayout>
 
@@ -147,8 +147,9 @@
 
         <ImageView
             android:id="@+id/pitchToogleControlModes"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:contentDescription="@string/text_label"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_below="@id/separatorPitch"
             android:layout_alignParentEnd="true"
             android:clickable="true"
@@ -177,7 +178,8 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:text="@string/percent"
-                android:textColor="?attr/colorAccent" />
+                android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <org.chicha.ttt.views.NewPipeTextView
                 android:id="@+id/pitchControlModeSemitone"
@@ -189,7 +191,8 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:text="@string/semitone"
-                android:textColor="?attr/colorAccent" />
+                android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -219,7 +222,7 @@
                     android:text="--%"
                     android:textColor="?attr/colorAccent"
                     android:textStyle="bold"
-                    tools:ignore="HardcodedText"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck"
                     tools:text="-5%" />
 
                 <RelativeLayout
@@ -292,7 +295,7 @@
                     android:text="+-%"
                     android:textColor="?attr/colorAccent"
                     android:textStyle="bold"
-                    tools:ignore="HardcodedText"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck"
                     tools:text="+5%" />
             </RelativeLayout>
 
@@ -431,6 +434,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck"
                 tools:text="1%" />
 
             <org.chicha.ttt.views.NewPipeTextView
@@ -443,6 +447,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck"
                 tools:text="5%" />
 
             <org.chicha.ttt.views.NewPipeTextView
@@ -455,6 +460,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck"
                 tools:text="10%" />
 
             <org.chicha.ttt.views.NewPipeTextView
@@ -467,6 +473,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
                 tools:text="25%" />
 
             <org.chicha.ttt.views.NewPipeTextView
@@ -479,6 +486,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:textColor="?attr/colorAccent"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
                 tools:text="100%" />
         </LinearLayout>
 
@@ -507,6 +515,7 @@
                 android:checked="false"
                 android:clickable="true"
                 android:focusable="true"
+                android:minHeight="48dp"
                 android:text="@string/unhook_checkbox" />
 
             <CheckBox
@@ -516,6 +525,7 @@
                 android:checked="false"
                 android:clickable="true"
                 android:focusable="true"
+                android:minHeight="48dp"
                 android:text="@string/skip_silence_checkbox" />
 
         </LinearLayout>

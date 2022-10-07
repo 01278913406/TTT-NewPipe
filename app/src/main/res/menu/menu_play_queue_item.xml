@@ -13,7 +13,7 @@
     <item
         android:id="@+id/menu_item_channel_details"
         android:title="@string/show_channel_details" />
-    <item
+  <!--  <item
         android:id="@+id/menu_item_share"
-        android:title="@string/share" />
+        android:title="@string/share" />-->
 </menu>

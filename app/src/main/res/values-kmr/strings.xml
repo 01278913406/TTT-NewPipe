@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="title_activity_recaptcha">reCAPTCHA dijwarî</string>
     <string name="one_item_deleted">1 babet hate jêbirin.</string>
     <string name="no_available_dir">Ji kerema xwe peldanka dakêşanê paşê di mîhengan de diyar bikin</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="upload_date_text">%1$s को प्रकाशित हुआ</string>
     <string name="no_player_found">स्ट्रीमिंग के लिए प्लेयर नहीं मिला। क्या आप VLC इंस्टॉल करना चाहेंगे\?</string>
     <string name="install">इंस्टॉल करें</string>

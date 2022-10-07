@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="use_external_video_player_title">Tashqi video pleerdan foydalanish</string>
     <string name="share_dialog_title">Bilan baham ko\'rish</string>
     <string name="search_showing_result_for">%s uchun natijalar ko\'rsatilmoqda</string>

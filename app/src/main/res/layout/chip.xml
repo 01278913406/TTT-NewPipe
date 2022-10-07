@@ -6,6 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:textColor="#B71C1C"
     android:theme="@style/Theme.MaterialComponents.DayNight.Bridge"
     app:chipMinTouchTargetSize="40dp"
+    tools:ignore="TextContrastCheck"
     tools:text="I'm a correctly themed chip!" />

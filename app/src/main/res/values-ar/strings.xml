@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="background_player_playing_toast">يتم التشغيل في الخلفية</string>
     <string name="cancel">إلغاء</string>
     <string name="dark_theme_title">داكن</string>

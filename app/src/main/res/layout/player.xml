@@ -223,6 +223,7 @@
 
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/moreOptionsButton"
+                        android:hint="@string/text_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="?attr/selectableItemBackgroundBorderless"
@@ -430,6 +431,7 @@
 
                 <org.chicha.ttt.views.FocusAwareSeekBar
                     android:id="@+id/playbackSeekBar"
+                    android:hint="@string/text_label"
                     style="@style/Widget.AppCompat.SeekBar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -492,6 +494,7 @@
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/playPreviousButton"
+                android:hint="@string/text_label"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_marginEnd="10dp"
@@ -507,6 +510,7 @@
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/playPauseButton"
+                android:hint="@string/text_label"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"

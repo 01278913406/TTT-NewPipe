@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <item
+  <!--  <item
         android:id="@+id/menu_item_share"
         android:icon="@drawable/ic_share"
         android:title="@string/share"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom" />-->
 
     <item
         android:id="@+id/menu_item_bookmark"

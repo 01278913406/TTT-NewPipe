@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="settings_category_video_audio_title">Tavidyutt akked d imesli</string>
     <string name="tab_about">Γef</string>
     <string name="feed_create_new_group_button_title">Amaynut</string>

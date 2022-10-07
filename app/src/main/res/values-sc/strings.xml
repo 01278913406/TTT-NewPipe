@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="import_youtube_instructions">Importa sas iscritziones dae Google takeout:
 \n
 \n1. Bae a custu URL: %1$s

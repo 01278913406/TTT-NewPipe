@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="upload_date_text">Publikováno %1$s</string>
     <string name="no_player_found">Nenalezen žádný streamový přehrávač. Nainstalovat VLC\?</string>
     <string name="install">Instalovat</string>

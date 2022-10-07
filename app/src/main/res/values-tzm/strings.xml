@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="controls_add_to_playlist_title">Rnu ɣer</string>
     <string name="tab_choose">Sty aseksel</string>
     <string name="show_info">Smal ineɣmisen</string>

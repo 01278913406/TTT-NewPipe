@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:maxLines="1"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/notificationActionIcon"
         app:layout_constraintEnd_toEndOf="@+id/notificationActionClickableArea"
         app:layout_constraintHorizontal_bias="0.0"
@@ -57,11 +58,13 @@
         android:layout_height="0dp"
         android:background="?android:selectableItemBackground"
         android:clickable="true"
+        android:contentDescription="@string/text_label"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/notificationActionCheckBoxClickableArea"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <CheckBox
         android:id="@+id/notificationActionCheckBox"
@@ -76,6 +79,7 @@
 
     <View
         android:id="@+id/notificationActionCheckBoxClickableArea"
+        android:contentDescription="@string/text_label"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:clickable="true"

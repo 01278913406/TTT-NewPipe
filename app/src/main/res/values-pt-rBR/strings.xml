@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="audio">Áudio</string>
     <string name="youtube_signature_deobfuscation_error">Não foi possível decodificar assinatura da URL do vídeo</string>
     <string name="your_comment">Seu comentário (em inglês):</string>

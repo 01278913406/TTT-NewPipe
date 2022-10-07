@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="light_theme_title">Maliwanag</string>
     <string name="dark_theme_title">Madilim</string>
     <string name="restricted_video_no_stream">Ang video na ito ay may paghihigpit sa edad.

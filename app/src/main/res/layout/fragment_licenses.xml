@@ -14,8 +14,8 @@
         <org.chicha.ttt.views.NewPipeTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="@string/app_license_title"
@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:text="@string/app_license" />
+            android:text="@string/app_license"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/licenses_app_read_license"
@@ -34,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
             android:text="@string/read_full_license" />
 
         <org.chicha.ttt.views.NewPipeTextView

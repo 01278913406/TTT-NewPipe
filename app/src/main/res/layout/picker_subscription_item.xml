@@ -33,8 +33,9 @@
             android:lines="1"
             android:maxLines="1"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#EEEEEE"
             android:textSize="10sp"
-            tools:ignore="SmallSp"
+            tools:ignore="SmallSp,TextContrastCheck"
             tools:text="Channel Title, Lorem ipsum" />
     </LinearLayout>
 

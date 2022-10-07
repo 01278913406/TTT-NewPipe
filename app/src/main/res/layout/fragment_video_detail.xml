@@ -41,11 +41,11 @@
                         android:id="@+id/detail_thumbnail_image_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:minHeight="200dp"
                         android:background="?windowBackground"
                         android:contentDescription="@string/detail_thumbnail_view_description"
+                        android:minHeight="200dp"
                         android:scaleType="fitCenter"
-                        tools:ignore="RtlHardcoded"
+                        tools:ignore="RtlHardcoded,ImageContrastCheck"
                         tools:layout_height="200dp"
                         tools:src="@drawable/placeholder_thumbnail_video" />
 
@@ -164,6 +164,7 @@
                     android:background="?attr/selectableItemBackground"
                     android:clickable="true"
                     android:focusable="true"
+                    android:minHeight="48dp"
                     android:paddingStart="12dp"
                     tools:ignore="RtlSymmetry">
 
@@ -243,7 +244,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_toStartOf="@id/details_panel"
-                            android:layout_toLeftOf="@id/details_panel"
                             android:background="?attr/selectableItemBackground"
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
@@ -259,7 +259,8 @@
                                     android:layout_height="@dimen/video_item_detail_uploader_image_size"
                                     android:contentDescription="@string/detail_uploader_thumbnail_view_description"
                                     android:src="@drawable/placeholder_person"
-                                    app:shapeAppearance="@style/CircularImageView" />
+                                    app:shapeAppearance="@style/CircularImageView"
+                                    tools:ignore="ImageContrastCheck" />
 
                                 <com.google.android.material.imageview.ShapeableImageView
                                     android:id="@+id/detail_sub_channel_thumbnail_view"
@@ -270,7 +271,7 @@
                                     android:src="@drawable/placeholder_person"
                                     android:visibility="gone"
                                     app:shapeAppearance="@style/CircularImageView"
-                                    tools:ignore="RtlHardcoded"
+                                    tools:ignore="RtlHardcoded,ImageContrastCheck"
                                     tools:visibility="visible" />
 
                             </FrameLayout>
@@ -278,7 +279,7 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="8dp"
+                                android:layout_marginStart="8dp"
                                 android:gravity="center_vertical"
                                 android:orientation="vertical">
 
@@ -321,7 +322,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
                             android:paddingLeft="6dp"
                             android:paddingRight="6dp">
 
@@ -356,6 +356,7 @@
                                 android:gravity="center_vertical"
                                 android:lines="1"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#000000"
                                 android:textSize="@dimen/video_item_detail_likes_text_size"
                                 tools:ignore="RtlHardcoded"
                                 tools:text="12M" />
@@ -568,6 +569,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="12dp"
+                        android:textColor="#000000"
                         android:textSize="@dimen/video_item_detail_description_text_size"
                         tools:text="Stream meta info with link" />
 
@@ -584,6 +586,7 @@
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/view_pager"
+            android:contentDescription="@string/text_label"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -591,6 +594,7 @@
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_layout"
+            android:contentDescription="@string/text_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
@@ -615,10 +619,12 @@
             android:layout_height="60dp"
             android:layout_alignParentStart="true"
             android:background="@color/transparent_background_color"
+            android:contentDescription="@string/text_label"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/video_item_search_padding"
             android:paddingRight="@dimen/video_item_search_padding"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <LinearLayout
             android:id="@+id/overlay_metadata_layout"
@@ -657,7 +663,9 @@
                 android:scrollHorizontally="true"
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#263238"
                 android:textSize="@dimen/video_item_search_uploader_text_size"
+                tools:ignore="TextContrastCheck"
                 tools:text="The Video Artist  LONG very LONG very Long" />
 
         </LinearLayout>
@@ -675,21 +683,23 @@
 
             <ImageButton
                 android:id="@+id/overlay_play_pause_button"
-                android:layout_width="40dp"
+                android:layout_width="48dp"
                 android:layout_height="match_parent"
                 android:background="?attr/selectableItemBackground"
-                android:padding="10dp"
-                android:scaleType="center"
+                android:contentDescription="@string/text_label"
                 android:focusable="true"
                 android:focusedByDefault="true"
+                android:padding="10dp"
+                android:scaleType="center"
                 android:src="@drawable/ic_play_arrow"
                 tools:ignore="ContentDescription,RtlHardcoded" />
 
             <ImageButton
                 android:id="@+id/overlay_close_button"
-                android:layout_width="40dp"
+                android:layout_width="48dp"
                 android:layout_height="match_parent"
                 android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/text_label"
                 android:padding="10dp"
                 android:scaleType="center"
                 android:src="@drawable/ic_close"

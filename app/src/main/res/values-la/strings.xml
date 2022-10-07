@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="unmute">Immuta</string>
     <string name="mute">Muta</string>
     <string name="updates_setting_title">Renovationes</string>

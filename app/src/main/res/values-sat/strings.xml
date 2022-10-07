@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="share_dialog_title">ᱥᱟᱞᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱢᱮ</string>
     <string name="settings">ᱥᱟᱡᱟᱣᱠᱚ</string>
     <string name="search">ᱥᱮᱸᱫᱽᱨᱟ</string>

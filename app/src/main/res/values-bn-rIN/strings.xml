@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="pause_downloads">ডাউনলোড পজ করুন</string>
     <string name="start_downloads">ডাউনলোড শুরু করুন</string>
     <string name="delete_downloaded_files">ডাউনলোড করা ফাইলগুলো ডিলিট করুন</string>

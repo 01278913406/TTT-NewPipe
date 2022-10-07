@@ -22,14 +22,14 @@
         android:focusable="false"
         android:src="@drawable/placeholder_person"
         app:shapeAppearance="@style/CircularImageView"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/detail_pinned_view"
         android:layout_width="@dimen/video_item_detail_pinned_image_width"
         android:layout_height="@dimen/video_item_detail_pinned_image_height"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="@dimen/video_item_detail_pinned_right_margin"
+        android:layout_marginEnd="@dimen/video_item_detail_pinned_right_margin"
         android:layout_toEndOf="@+id/itemThumbnailView"
         android:contentDescription="@string/detail_pinned_comment_view_description"
         android:src="@drawable/ic_pin"
@@ -46,6 +46,7 @@
         android:ellipsize="end"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/comment_item_title_text_size"
         tools:text="Author Name, Lorem ipsum" />
 
@@ -56,7 +57,6 @@
         android:layout_below="@id/itemTitleView"
         android:layout_marginBottom="@dimen/channel_item_description_to_details_margin"
         android:layout_toEndOf="@+id/itemThumbnailView"
-        android:layout_toRightOf="@+id/itemThumbnailView"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="@dimen/comment_item_content_text_size"
         tools:text="Comment Content, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique vitae sem vitae blanditLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique vitae sem vitae blanditLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique vitae sem vitae blandit" />
@@ -67,7 +67,7 @@
         android:layout_width="@dimen/video_item_detail_like_image_width"
         android:layout_height="@dimen/video_item_detail_like_image_height"
         android:layout_below="@id/itemCommentContentView"
-        android:layout_toRightOf="@+id/itemThumbnailView"
+        android:layout_toEndOf="@+id/itemThumbnailView"
         android:contentDescription="@string/detail_likes_img_view_description"
         android:src="@drawable/ic_thumb_up" />
 
@@ -80,6 +80,7 @@
         android:layout_toRightOf="@id/detail_thumbs_up_img_view"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_detail_likes_text_size"
         tools:ignore="RtlHardcoded"
         tools:text="12M" />
@@ -89,8 +90,8 @@
         android:layout_width="@dimen/video_item_detail_heart_image_size"
         android:layout_height="@dimen/video_item_detail_heart_image_size"
         android:layout_below="@id/itemCommentContentView"
-        android:layout_marginLeft="@dimen/video_item_detail_heart_margin"
-        android:layout_toRightOf="@+id/detail_thumbs_up_count_view"
+        android:layout_marginStart="@dimen/video_item_detail_heart_margin"
+        android:layout_toEndOf="@+id/detail_thumbs_up_count_view"
         android:contentDescription="@string/detail_heart_img_view_description"
         android:src="@drawable/ic_heart"
         android:visibility="gone"
@@ -101,10 +102,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/itemCommentContentView"
-        android:layout_marginLeft="12dp"
-        android:layout_toRightOf="@id/detail_heart_image_view"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@id/detail_heart_image_view"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_upload_date_text_size"
         tools:text="1 year ago" />
 

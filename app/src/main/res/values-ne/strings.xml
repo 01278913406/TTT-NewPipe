@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">सुरू गर्न \"खोज\" चिन्ह दबाउनुहोस्</string>
     <string name="upload_date_text">%1$s मा प्रकाशित</string>
     <string name="no_player_found">कुनै स्ट्रिम प्लेयर फेला परेन। के तपाईं VLC इन्स्टल गर्न चाहनुहुन्छ\?</string>

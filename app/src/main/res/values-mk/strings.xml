@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">Притиснете „Барај“ за да започнете.</string>
     <string name="upload_date_text">Објавено на %1$s</string>
     <string name="no_player_found">Не е пронајден плеер за стримови. Сакате да инсталирате VLC\?</string>

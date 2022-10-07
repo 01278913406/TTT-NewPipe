@@ -61,6 +61,7 @@
         android:layout_toRightOf="@+id/itemThumbnailView"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_uploader_text_size"
         tools:ignore="RtlHardcoded"
         tools:text="Uploader" />

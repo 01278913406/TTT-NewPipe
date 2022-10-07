@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">Tekan kanta kaca \"Cari\" untuk bermula</string>
     <string name="upload_date_text">Diterbitkan pada %1$s</string>
     <string name="no_player_found">Tiada pemain strim ditemui. Muat turun VLC\?</string>

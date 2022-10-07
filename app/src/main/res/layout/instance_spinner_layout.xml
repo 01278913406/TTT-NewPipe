@@ -6,4 +6,5 @@
     android:layout_height="wrap_content"
     android:gravity="end"
     android:prompt="@string/choose_instance_prompt"
+    tools:ignore="TouchTargetSizeCheck"
     tools:listitem="@layout/instance_spinner_item" />

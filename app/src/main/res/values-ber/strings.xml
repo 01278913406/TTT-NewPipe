@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="feed_create_new_group_button_title">ⴰⵎⴰⵢⵏⵓ</string>
     <string name="name">ⵉⵙⵎ</string>
     <plurals name="days">

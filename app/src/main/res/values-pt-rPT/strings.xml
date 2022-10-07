@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="decline">Recusar</string>
     <string name="start_here_on_background">Iniciar reprodução em segundo plano</string>
     <string name="import_network_expensive_warning">Tenha em atenção de que esta operação pode sobrecarregar a sua rede.

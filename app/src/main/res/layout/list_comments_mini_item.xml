@@ -19,7 +19,7 @@
         android:layout_marginRight="15dp"
         android:src="@drawable/placeholder_person"
         app:shapeAppearance="@style/CircularImageView"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded,ImageContrastCheck" />
 
 
     <org.chicha.ttt.views.NewPipeTextView
@@ -27,8 +27,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/channel_item_description_to_details_margin"
-        android:layout_toRightOf="@+id/itemThumbnailView"
+        android:layout_toEndOf="@+id/itemThumbnailView"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/comment_item_content_text_size"
         tools:text="Channel description, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique vitae sem vitae blanditLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique vitae sem vitae blanditLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique vitae sem vitae blandit" />
 
@@ -37,7 +38,7 @@
         android:layout_width="@dimen/video_item_detail_like_image_width"
         android:layout_height="@dimen/video_item_detail_like_image_height"
         android:layout_below="@id/itemCommentContentView"
-        android:layout_toRightOf="@+id/itemThumbnailView"
+        android:layout_toEndOf="@+id/itemThumbnailView"
         android:contentDescription="@string/detail_likes_img_view_description"
         android:src="@drawable/ic_thumb_up" />
 
@@ -50,6 +51,7 @@
         android:layout_toRightOf="@id/detail_thumbs_up_img_view"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_detail_likes_text_size"
         tools:ignore="RtlHardcoded"
         tools:text="12M" />
@@ -59,10 +61,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/itemCommentContentView"
-        android:layout_marginLeft="12dp"
-        android:layout_toRightOf="@id/detail_thumbs_up_count_view"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@id/detail_thumbs_up_count_view"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_upload_date_text_size"
         tools:text="1 year ago" />
 

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="playback_reset">റീസെറ്റ്</string>
     <string name="playback_step">സ്റ്റെപ്</string>
     <string name="skip_silence_checkbox">നിശബ്ദതയിൽ ഫാസ്റ്റ്ഫോർവേർഡ്</string>

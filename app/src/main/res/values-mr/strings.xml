@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="download_path_audio_dialog_title">ऑडिओ फाईल साठी डाउनलोड फोल्डर निवडा</string>
     <string name="download_path_audio_summary">डाउनलोड केलेल्या ऑडियो फाईल येथे साठवल्या जातात</string>
     <string name="download_path_audio_title">ऑडिओ डाउनलोड फोल्डर</string>

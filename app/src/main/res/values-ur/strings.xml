@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">شروع کرنے کے لیے \"کلاں نما شیشہ\" پر ٹیپ کریں</string>
     <string name="upload_date_text">%1$s کو شائع ہوا</string>
     <string name="install">انسٹال</string>

@@ -19,7 +19,7 @@
         android:layout_marginRight="15dp"
         android:src="@drawable/placeholder_person"
         app:shapeAppearance="@style/CircularImageView"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/itemTitleView"
@@ -44,6 +44,7 @@
         android:layout_toRightOf="@+id/itemThumbnailView"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_upload_date_text_size"
         tools:ignore="RtlHardcoded"
         tools:text="10M subscribers" />

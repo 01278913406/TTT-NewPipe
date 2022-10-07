@@ -19,14 +19,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_play_seek_triangle"
-            tools:alpha="0.18" />
+            tools:alpha="0.18"
+            tools:ignore="ImageContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/icon_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_play_seek_triangle"
-            tools:alpha="0.5" />
+            tools:alpha="0.5"
+            tools:ignore="ImageContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/icon_3"
@@ -43,7 +45,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="4dp"
-        android:textColor="@android:color/white"
+        android:textColor="#000000"
         android:textSize="14sp"
         tools:text="20 seconds" />
 

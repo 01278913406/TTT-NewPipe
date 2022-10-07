@@ -29,6 +29,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription"
+                android:contentDescription="@string/text_label"
                 tools:src="@drawable/ic_asterisk" />
 
             <com.google.android.material.textfield.TextInputLayout

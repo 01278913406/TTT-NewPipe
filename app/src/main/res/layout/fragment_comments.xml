@@ -46,6 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/empty_view_no_comments"
+            android:textColor="#3E2723"
             android:textSize="24sp" />
 
     </LinearLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="cancel">Annuler</string>
     <string name="default_resolution_title">Définition par défaut</string>
     <string name="did_you_mean">Vouliez-vous dire « %1$s » \?</string>

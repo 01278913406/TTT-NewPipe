@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="no_player_found_toast">Koan Stream-Playa gfundn (Wennsd\'n VLC installiast, gähds).</string>
     <string name="use_external_video_player_title">An andan Wideo-Playa heanehma</string>
     <string name="share_dialog_title">Deiln mid</string>

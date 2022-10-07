@@ -42,7 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="5dp"
-            android:text="@string/app_description" />
+            android:text="@string/app_description"
+            android:textColor="#000000" />
 
         <org.chicha.ttt.views.NewPipeTextView
             android:layout_width="match_parent"
@@ -54,7 +55,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/contribution_encouragement" />
+            android:text="@string/contribution_encouragement"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/about_github_link"
@@ -94,7 +96,8 @@
         <org.chicha.ttt.views.NewPipeTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/website_encouragement" />
+            android:text="@string/website_encouragement"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/about_website_link"
@@ -114,7 +117,8 @@
         <org.chicha.ttt.views.NewPipeTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/privacy_policy_encouragement" />
+            android:text="@string/privacy_policy_encouragement"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/about_privacy_policy_link"

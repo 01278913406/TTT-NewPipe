@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="caption_none">Nav Subtitri</string>
     <string name="playlist_thumbnail_change_success">Atskaņošanas saraksta attēls nomainīts.</string>
     <string name="playlist_creation_success">Atskaņošanas saraksts radīts</string>

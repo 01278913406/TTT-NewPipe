@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">Докоснете лупата, за да започнете</string>
     <string name="upload_date_text">Публикувано на %1$s</string>
     <string name="no_player_found">Не е намерен стрийм плейър. Инсталиране на VLC\?</string>

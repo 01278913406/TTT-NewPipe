@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="main_bg_subtitle">Սեղմեք որոնման կոճակը որ սկսել</string>
     <string name="search">Որոնել</string>
     <string name="downloads">Բեռնված</string>

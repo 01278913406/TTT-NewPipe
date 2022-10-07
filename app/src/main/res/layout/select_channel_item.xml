@@ -21,7 +21,7 @@
         android:layout_marginRight="8dp"
         android:src="@drawable/placeholder_person"
         app:shapeAppearance="@style/CircularImageView"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded,ImageContrastCheck" />
 
     <org.chicha.ttt.views.NewPipeTextView
         android:id="@+id/itemTitleView"
@@ -30,7 +30,6 @@
         android:layout_centerVertical="true"
         android:layout_marginBottom="@dimen/video_item_search_image_right_margin"
         android:layout_toEndOf="@+id/itemThumbnailView"
-        android:layout_toRightOf="@+id/itemThumbnailView"
         android:ellipsize="end"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceListItem"

@@ -11,6 +11,7 @@
 
     <ImageView
         android:id="@+id/itemThumbnailView"
+        android:contentDescription="@string/text_label"
         android:layout_width="@dimen/video_item_grid_thumbnail_image_width"
         android:layout_height="@dimen/video_item_grid_thumbnail_image_height"
         android:layout_alignParentTop="true"
@@ -63,6 +64,7 @@
         android:layout_alignRight="@id/itemThumbnailView"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
         android:textSize="@dimen/video_item_search_uploader_text_size"
         tools:ignore="RtlHardcoded"
         tools:text="Uploader" />

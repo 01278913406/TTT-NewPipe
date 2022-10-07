@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="text_label">Nhãn</string>
     <string name="upload_date_text">%1$s 發布</string>
     <string name="no_player_found">找不到串流播放器。要安裝 VLC 嗎？</string>
     <string name="install">安裝</string>
