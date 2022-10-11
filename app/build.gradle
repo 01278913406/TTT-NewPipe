@@ -16,8 +16,8 @@ android {
         resValue "string", "app_name", "TTT"
         minSdk 28
         targetSdk 31
-        versionCode 14
-        versionName "0.0.1"
+        versionCode 16
+        versionName "0.1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -188,7 +188,7 @@ dependencies {
     // name and the commit hash with the commit hash of the (pushed) commit you want to test
     // This works thanks to JitPack: https://jitpack.io/
     implementation 'com.github.TeamNewPipe:nanojson:1d9e1aea9049fc9f85e68b43ba39fe7be1c1f751'
-    implementation 'com.github.01278913406.ttt:NewPipeExtractor:94081565bf'
+    implementation 'com.github.01278913406.ttt:NewPipeExtractor:9d4f40f0de'
     implementation 'com.github.TeamNewPipe:NoNonsense-FilePicker:5.0.0'
 
 /** Checkstyle **/
