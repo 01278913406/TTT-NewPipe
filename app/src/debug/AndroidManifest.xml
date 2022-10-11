@@ -2,8 +2,11 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <uses-permission tools:node="merge" android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission tools:node="merge" android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <application
         android:name=".DebugApp"
+        android:icon="@mipmap/ic_launcher"
+        android:logo="@mipmap/ic_launcher"
         tools:replace="android:name" />
 </manifest>

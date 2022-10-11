@@ -16,10 +16,12 @@
         android:layout_marginTop="12dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="6dp"
-        android:text="@string/msg_name" />
+        android:text="@string/msg_name"
+        android:textColor="#000000" />
 
     <org.chicha.ttt.views.NewPipeEditText
         android:id="@+id/file_name"
+        android:hint="@string/text_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/file_name_text_view"
@@ -27,7 +29,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="6dp"
         android:inputType="text"
-        android:maxLines="1" />
+        android:maxLines="1"
+        android:minHeight="48dp" />
 
     <RadioGroup
         android:id="@+id/video_audio_group"
@@ -44,20 +47,26 @@
             android:id="@+id/video_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:height="48dp"
             android:checked="true"
-            android:text="@string/video" />
+            android:text="@string/video"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <RadioButton
             android:id="@+id/audio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/audio" />
+            android:text="@string/audio"
+            android:textColor="#000000"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
         <RadioButton
             android:id="@+id/subtitle_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/caption_setting_title" />
+            android:height="48dp"
+            android:text="@string/caption_setting_title"
+            tools:ignore="TouchTargetSizeCheck" />
     </RadioGroup>
 
     <Spinner
@@ -79,7 +88,8 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="6dp"
-        android:text="@string/msg_threads" />
+        android:text="@string/msg_threads"
+        android:textColor="#000000" />
 
     <LinearLayout
         android:id="@+id/threads_layout"
@@ -97,6 +107,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:paddingLeft="2dp"
+            android:textColor="#000000"
             tools:ignore="RtlHardcoded,RtlSymmetry"
             tools:text="3" />
 
@@ -117,6 +128,7 @@
         android:layout_marginBottom="12dp"
         android:gravity="center"
         android:text="@string/streams_not_yet_supported_removed"
+        android:textColor="#000000"
         android:textSize="12sp" />
 
 </RelativeLayout>

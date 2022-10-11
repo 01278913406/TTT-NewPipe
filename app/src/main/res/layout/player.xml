@@ -223,17 +223,19 @@
 
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/moreOptionsButton"
-                        android:hint="@string/text_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:clickable="true"
+                        android:contentDescription="@string/text_label"
                         android:focusable="true"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
                         android:padding="@dimen/player_main_buttons_padding"
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_expand_more"
                         app:tint="@color/white"
-                        tools:ignore="ContentDescription,RtlHardcoded" />
+                        tools:ignore="ContentDescription,RtlHardcoded,DuplicateSpeakableTextCheck" />
 
                 </LinearLayout>
 
@@ -297,7 +299,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_cast"
                         app:tint="@color/white"
-                        tools:ignore="RtlHardcoded" />
+                        tools:ignore="RtlHardcoded,TouchTargetSizeCheck" />
 
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/openInBrowser"
@@ -312,17 +314,18 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_language"
                         app:tint="@color/white"
-                        tools:ignore="RtlHardcoded" />
+                        tools:ignore="RtlHardcoded,TouchTargetSizeCheck" />
 
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/share"
                         android:layout_width="wrap_content"
-                        android:layout_height="35dp"
+                        android:layout_height="48dp"
                         android:layout_marginEnd="8dp"
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:clickable="true"
                         android:contentDescription="@string/share"
                         android:focusable="true"
+                        android:minWidth="48dp"
                         android:padding="@dimen/player_main_buttons_padding"
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_share"
@@ -332,11 +335,13 @@
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/switchMute"
                         android:layout_width="wrap_content"
-                        android:layout_height="37dp"
+                        android:layout_height="48dp"
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:clickable="true"
                         android:contentDescription="@string/mute"
                         android:focusable="true"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
                         android:padding="@dimen/player_main_buttons_padding"
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_volume_off"
@@ -345,8 +350,9 @@
 
                     <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/fullScreenButton"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:contentDescription="@string/text_label"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:clickable="true"
                         android:focusable="true"
@@ -385,11 +391,11 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:paddingBottom="2dp"
-                        android:textColor="@android:color/white"
+                        android:textColor="#546E7A"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:visibility="gone"
-                        tools:ignore="RtlHardcoded"
+                        tools:ignore="RtlHardcoded,TextContrastCheck,TextContrastCheck"
                         tools:text="1:06:29"
                         tools:visibility="visible" />
 
@@ -397,9 +403,11 @@
                         android:id="@+id/currentSeekbarPreviewThumbnail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/text_label"
                         android:paddingTop="2dp"
                         android:src="@drawable/placeholder_thumbnail_video"
                         android:visibility="gone"
+                        tools:ignore="ImageContrastCheck"
                         tools:visibility="visible" />
 
                 </LinearLayout>
@@ -424,8 +432,8 @@
                     android:gravity="center"
                     android:minHeight="30dp"
                     android:text="-:--:--"
-                    android:textColor="@android:color/white"
-                    tools:ignore="HardcodedText"
+                    android:textColor="#9E9E9E"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck"
                     tools:text="1:06:29" />
 
 
@@ -448,8 +456,8 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="-:--:--"
-                    android:textColor="@android:color/white"
-                    tools:ignore="HardcodedText"
+                    android:textColor="#9E9E9E"
+                    tools:ignore="HardcodedText,TextContrastCheck"
                     tools:text="1:23:49" />
 
                 <org.chicha.ttt.views.NewPipeTextView
@@ -468,11 +476,12 @@
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/screenRotationButton"
-                    android:layout_width="40dp"
+                    android:layout_width="48dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="4dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:clickable="true"
+                    android:contentDescription="@string/text_label"
                     android:focusable="true"
                     android:nextFocusUp="@id/playbackSeekBar"
                     android:padding="@dimen/player_main_buttons_padding"
@@ -480,7 +489,7 @@
                     android:src="@drawable/ic_fullscreen"
                     android:visibility="gone"
                     app:tint="@color/white"
-                    tools:ignore="ContentDescription,RtlHardcoded"
+                    tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck"
                     tools:visibility="visible" />
             </LinearLayout>
         </RelativeLayout>
@@ -494,13 +503,13 @@
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/playPreviousButton"
-                android:hint="@string/text_label"
                 android:layout_width="0dp"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
+                android:contentDescription="@string/text_label"
                 android:focusable="true"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_previous"
@@ -510,7 +519,7 @@
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/playPauseButton"
-                android:hint="@string/text_label"
+                android:contentDescription="@string/text_label"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
@@ -522,8 +531,9 @@
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/playNextButton"
+                android:contentDescription="@string/text_label"
                 android:layout_width="0dp"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:background="?attr/selectableItemBackgroundBorderless"
@@ -578,15 +588,17 @@
                 android:layout_marginLeft="40dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
+                android:contentDescription="@string/text_label"
                 android:focusable="true"
                 android:padding="10dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/exo_controls_repeat_off"
                 android:tint="?attr/colorAccent"
-                tools:ignore="ContentDescription,RtlHardcoded" />
+                tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck" />
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/shuffleButton"
+                android:contentDescription="@string/text_label"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_centerVertical="true"
@@ -613,6 +625,7 @@
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/addToPlaylistButton"
+                android:contentDescription="@string/text_label"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_centerVertical="true"
