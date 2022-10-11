@@ -16,7 +16,7 @@ android {
         resValue "string", "app_name", "TTT"
         minSdk 28
         targetSdk 31
-        versionCode 16
+        versionCode 17
         versionName "0.1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

@@ -189,6 +189,7 @@ public final class PlayerHolder {
         if (bound) {
             context.unbindService(serviceConnection);
             bound = false;
+            stopService();
             stopPlayerListener();
             playerService = null;
             player = null;

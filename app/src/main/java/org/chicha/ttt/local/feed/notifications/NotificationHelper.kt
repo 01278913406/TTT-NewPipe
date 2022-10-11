@@ -77,7 +77,7 @@ class NotificationHelper(val context: Context) {
                     .getChannelIntent(context, data.listInfo.serviceId, data.listInfo.url)
                     .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK),
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
-                    PendingIntent.FLAG_IMMUTABLE
+                    PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
                 else
                     0
             )

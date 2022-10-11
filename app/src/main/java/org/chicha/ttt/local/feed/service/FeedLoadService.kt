@@ -156,7 +156,7 @@ class FeedLoadService : Service() {
             this,
             NOTIFICATION_ID,
             Intent(ACTION_CANCEL),
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) PendingIntent.FLAG_IMMUTABLE else 0
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT else 0
         )
 
         return NotificationCompat.Builder(this, getString(R.string.notification_channel_id))
